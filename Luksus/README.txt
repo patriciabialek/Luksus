@@ -48,3 +48,9 @@ Run project - no issues.
 
 2023-10-10 1252:
 Used the (@DateTime.Now.Year) to get the current year without updating.
+Run project - no issues.
+
+2023-10-10 1353:
+Updated the about page.
+Completed the home page and added a button link to the catalog (still need to input the link).
+Run project - no issues.

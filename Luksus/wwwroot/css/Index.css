@@ -9,8 +9,8 @@ Assignment #1
 /*************************************
 TABLE OF CONTENTS:
 1. Body
-2. H1/H2
-3. Paragraphs
+2. H1
+3. Button
 4. Footer
 5. Nav
 **************************************/
@@ -39,9 +39,9 @@ img {
     display: block;
 }
 /*************************************
-2. H1/H2
+2. H1
 **************************************/
-h1:nth-of-type(1) {
+h1 {
     font-size: 3em;
     text-align: center;
     margin: 40px 0 20px 0;
@@ -50,63 +50,36 @@ h1:nth-of-type(1) {
     color: #1a5e6e;
     text-shadow: 2px 2px beige;
 }
-
-
-h1:nth-of-type(2) {
-    font-size: 3em;
-    text-align: center;
-    margin: 0 0 60px 0;
-    font-family: 'Charmonman', cursive;
-    font-weight: bold;
-    color: #1a5e6e;
-    text-shadow: 2px 2px beige;
-}
-
-
-h2 {
-    font-size: 2em;
-    text-align: center;
-    margin: 40px 0 10px 0;
-    font-family: 'Belleza', sans-serif;
-    font-weight: bold;
-    color: #4b3f51;
-}
 /*************************************
-3. PARAGRAPHS
+3. BUTTON
 **************************************/
-p {
-    font-size: 1.2em;
-    text-align: justify;
-    line-height: 1.2em;
-    font-family: 'Belleza', sans-serif;
-    color: #66383c;
-}
-
-
-#p1 {
-    text-align: center;
-}
-
-
-#lastLine {
-    text-align: center;
+.btn {
+    max-width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: rgb(126,189,207,0.7);
+    padding: 20px 40px;
     font-size: 2em;
-    margin-top: 100px;
-    margin-bottom:100px;
-    color: #1a5e6e;
-    text-shadow: 2px 2px beige;
-    font-weight: bold;
-    font-family: 'Charmonman', cursive;
+    font-family: 'Belleza', sans-serif;
+    color: white;
 }
 
-
+a.btn:hover {
+         color: pink;
+         text-decoration: none;
+     }
 /*************************************
 4. FOOTER
 **************************************/
 footer {
     background-color: rgb(255,206,137,0.7);
-    padding: 20px;
+    padding: 20px 100px;
     border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    left:30%;
 }
 
 footer div {
@@ -122,14 +95,13 @@ footer div a {
 }
 
 footer div a:hover {
-    text-decoration: none;
-    color: #1a5e6e;
+     text-decoration: none;
+     color: #1a5e6e;
 }
-
 /*************************************
 5. NAV
 **************************************/
-header{
+header {
     background-color: rgb(255,206,137,0.7);
     border-radius: 25px;
 }
@@ -176,3 +148,4 @@ nav a {
         margin: 0 40px;
     }
 }
+
