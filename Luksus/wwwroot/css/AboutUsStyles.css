@@ -103,15 +103,27 @@ p {
 /*************************************
 4. FOOTER
 **************************************/
+footer div {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #66383c;
+}
 
-/*************************************
-4. NAV
+footer div a {
+    color: #1a5e6e;
+    }
+
+footer div a:hover{
+    text-decoration:none;
+    color: #9baaa0;
+}
+    /*************************************
+5. NAV
 **************************************/
-
-
-
-@media screen and (max-width:800px) {
-    body {
+    @media screen and (max-width:800px) {
+        body {
         margin: 0 40px;
     }
 }

@@ -26,3 +26,14 @@ Changed the Views > Shared > Layout page to replace privacy with about us.
 Run project - no issues.
 *figure out how to change the url to replace Privacy to AboutUs.
 
+2023-10-10 1101:
+All inside the wwwrootfolder > css + images
+Created a css file for my About us page styles, and a css reset.
+Created an image folder.
+Added content to the html page, and added styles to the about us page.
+*still need to update the navigation and footer.
+Run project - no issues.
+
+2023-10-10 1110:
+Editing the footer and almost complete, need to change the color for when you hover and click on the about us link.
+*figure out how to update the 2023 to be auto. 
