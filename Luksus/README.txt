@@ -37,3 +37,6 @@ Run project - no issues.
 2023-10-10 1110:
 Editing the footer and almost complete, need to change the color for when you hover and click on the about us link.
 *figure out how to update the 2023 to be auto. 
+
+2023-10-10 1147:
+having a hard time removing the default header. 

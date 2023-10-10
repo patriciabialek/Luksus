@@ -103,6 +103,11 @@ p {
 /*************************************
 4. FOOTER
 **************************************/
+footer{
+    border: 2px solid black;
+    padding: 20px;
+}
+
 footer div {
     text-align: center;
     font-family: 'Charmonman', cursive;
@@ -119,9 +124,18 @@ footer div a:hover{
     text-decoration:none;
     color: #9baaa0;
 }
-    /*************************************
+
+/*************************************
 5. NAV
 **************************************/
+ul li{
+    font-family: 'BIZ UDMincho', serif;
+    font-size: 1.2em;
+    color: #9baaa0;
+}
+
+
+
     @media screen and (max-width:800px) {
         body {
         margin: 0 40px;
