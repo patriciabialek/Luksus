@@ -54,3 +54,8 @@ Run project - no issues.
 Updated the about page.
 Completed the home page and added a button link to the catalog (still need to input the link).
 Run project - no issues.
+
+2023-10-10 1406:
+Now in the URL it says AboutUs when we click on the about us page.
+Did this by changing the Privacy.cshtml file to AboutUs.cshtml, changed the Layout privacy attributes to AboutUs,
+and in the HomeController.cs page, I changed the Privacy() method name to AboutUs() name.
