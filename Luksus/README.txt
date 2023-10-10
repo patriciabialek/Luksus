@@ -13,3 +13,8 @@ In Properties > launchSetting.json - comment out sslport, will have to uncomment
 2023-10-10 1020:
 Run the project to test if it will run. 
 Project ran properly. 
+
+2023-10-10 1024:
+Commented out what was left on the home page and added my company name and a button to link to the catalog page.
+Have to figure out the link to the catalog page and add an image. 
+Run the project - no issues.
