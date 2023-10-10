@@ -1,0 +1,117 @@
+﻿@charset "utf-8";
+/*
+Name: Patricia Bialek
+Number: 0738386
+Assignment #1
+*/
+
+
+/*************************************
+TABLE OF CONTENTS:
+1. Body
+2. H1/H2
+3. Paragraphs
+4. Footer
+5. Nav
+**************************************/
+/*************************************
+Fonts:
+font-family: 'Belleza', sans-serif; content
+font-family: 'BIZ UDMincho', serif;
+font-family: 'Charmonman', cursive; title
+**************************************/
+
+
+/*************************************
+1. BODY
+**************************************/
+body {
+    margin: 0 260px;
+    background-image: url("Images/floral.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+img {
+    max-width: 70%;
+    margin: 20px auto;
+    display: block;
+}
+/*************************************
+2. H1/H2
+**************************************/
+h1:nth-of-type(1) {
+    font-size: 3em;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+    color: #1a5e6e;
+    text-shadow: 2px 2px beige;
+}
+
+
+h1:nth-of-type(2) {
+    font-size: 3em;
+    text-align: center;
+    margin: 0 0 60px 0;
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+    color: #1a5e6e;
+    text-shadow: 2px 2px beige;
+}
+
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 40px 0 10px 0;
+    font-family: 'Belleza', sans-serif;
+    font-weight: bold;
+    color: #4b3f51;
+}
+/*************************************
+3. PARAGRAPHS
+**************************************/
+p {
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.2em;
+    font-family: 'Belleza', sans-serif;
+    color: #66383c;
+}
+
+
+#p1 {
+    text-align: center;
+}
+
+
+#lastLine {
+    text-align: center;
+    font-size: 2em;
+    padding: 60px 0 0 0;
+    margin-bottom:100px;
+    color: #1a5e6e;
+    text-shadow: 2px 2px beige;
+    font-weight: bold;
+    font-family: 'Charmonman', cursive;
+}
+
+
+/*************************************
+4. FOOTER
+**************************************/
+
+/*************************************
+4. NAV
+**************************************/
+
+
+
+@media screen and (max-width:800px) {
+    body {
+        margin: 0 40px;
+    }
+}
