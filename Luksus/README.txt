@@ -45,3 +45,6 @@ Having a hard time removing the default header.
 Completed header, footer, content.
 *still need to add auto date to footer.
 Run project - no issues.
+
+2023-10-10 1252:
+Used the (@DateTime.Now.Year) to get the current year without updating.
