@@ -18,3 +18,9 @@ Project ran properly.
 Commented out what was left on the home page and added my company name and a button to link to the catalog page.
 Have to figure out the link to the catalog page and add an image. 
 Run the project - no issues.
+
+2023-10-10 1031:
+Deleted the commented out section in the hoem page.
+Changed the privacy page to the about page.
+Changed the Views > Shared > Layout page to replace privacy with about us.
+Run project - no issues.
