@@ -39,4 +39,9 @@ Editing the footer and almost complete, need to change the color for when you ho
 *figure out how to update the 2023 to be auto. 
 
 2023-10-10 1147:
-having a hard time removing the default header. 
+Having a hard time removing the default header. 
+
+2023-10-10 1244:
+Completed header, footer, content.
+*still need to add auto date to footer.
+Run project - no issues.

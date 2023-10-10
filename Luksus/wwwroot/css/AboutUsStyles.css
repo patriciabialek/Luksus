@@ -91,7 +91,7 @@ p {
 #lastLine {
     text-align: center;
     font-size: 2em;
-    padding: 60px 0 0 0;
+    margin-top: 100px;
     margin-bottom:100px;
     color: #1a5e6e;
     text-shadow: 2px 2px beige;
@@ -103,9 +103,10 @@ p {
 /*************************************
 4. FOOTER
 **************************************/
-footer{
-    border: 2px solid black;
+footer {
+    background-color: rgb(255,206,137,0.7);
     padding: 20px;
+    border-radius: 15px;
 }
 
 footer div {
@@ -117,27 +118,59 @@ footer div {
 }
 
 footer div a {
-    color: #1a5e6e;
-    }
+    color: white;
+}
 
-footer div a:hover{
-    text-decoration:none;
-    color: #9baaa0;
+footer div a:hover {
+    text-decoration: none;
+    color: #1a5e6e;
 }
 
 /*************************************
 5. NAV
 **************************************/
-ul li{
+header{
+    background-color: rgb(255,206,137,0.7);
+    border-radius: 25px;
+}
+
+nav a {
+    margin: 20px 0;
+}
+
+/*Home & About link*/
+.nav-link {
+    margin-left: 50px;
+    font-size: 2em;
     font-family: 'BIZ UDMincho', serif;
-    font-size: 1.2em;
-    color: #9baaa0;
+    color: beige;
+    text-shadow: 2px 2px #1a5e6e;
+}
+
+.nav-link:hover {
+    color: #1a5e6e;
+    text-shadow: 2px 2px beige;
+}
+
+/*Luksus link*/
+.navbar-brand {
+     text-align: center;
+     font-size: 3em;
+     font-family: 'Charmonman', cursive;
+     color: #1a5e6e;
+     text-shadow: 2px 2px beige;
+}
+
+.navbar-brand:hover {
+     color: beige;
+     text-shadow: 2px 2px #1a5e6e;
 }
 
 
 
-    @media screen and (max-width:800px) {
-        body {
+
+@media screen and (max-width:800px) {
+    body {
         margin: 0 40px;
     }
 }
