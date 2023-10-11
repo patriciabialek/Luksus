@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Luksus.Models
 {
@@ -17,27 +19,27 @@ namespace Luksus.Models
         [Required]*/
         public string Brand { get; set; }
 
-        /*[Range(1, 100)]
+        /*[Required]
+        [Range(1, 100)]
         [DataType(DataType.Currency)]
         [Column(TypeName = "decimal(18, 2)")]*/
         public decimal Price { get; set; }
 
         /*[StringLength(60, MinimumLength = 3)]
-         * [Display(Name = "Fragrance Family")]
+        [Display(Name = "Fragrance Family")]
         [Required]*/
         public string FragranceFamily { get; set; }
 
-        /*[Range(1, 100)]
-        [DataType(DataType.Currency)]
-        [Column(TypeName = "decimal(18, 2)")]*/
-        public int Volume { get; set; }
+        /*[StringLength(60, MinimumLength = 1)]
+        [Display(Name = "Volume (ml)")]
+        [Required]*/
+        public string Volume { get; set; }
 
         /*[StringLength(60, MinimumLength = 3)]
         [Required]*/
         public string Concentration { get; set; }
 
-        /*[RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$")]
-        [StringLength(5)]
+        /*[StringLength(60, MinimumLength = 1)]
         [Required]*/
         public string Rating { get; set; }
     }

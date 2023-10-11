@@ -84,3 +84,16 @@ Add-Migration InitialCreate
 Update-Database
 A TimeStamp file was created in the Migrations folder.
 Run project - Cannont open the index of the DB.
+
+2023-10-11 1346:
+Linked the DB to the Home page by chnaging the Layout file.
+Run project - no issues.
+
+2023-10-11 1422:
+Created the SeedData file in the Models folder and added perfume data.
+Updated the data validation in Perfume.cs filein the Models folder.
+Updated the program.cs file to add the seed initializer.
+Run the program - seeded data did not show up. 
+
+2023-10-11 1503:
+Error: InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.String'.
