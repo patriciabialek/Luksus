@@ -77,3 +77,10 @@ And updated the Startup.cs config service.
 2023-10-11 1312:
 Connection string in appsetting.json
 Scaffold the perfume pages and a PerfumeController.cs file was created in the Controller folder
+
+2023-10-11 1316:
+For initial migration, in the PMC i entered the following commands: 
+Add-Migration InitialCreate
+Update-Database
+A TimeStamp file was created in the Migrations folder.
+Run project - Cannont open the index of the DB.
