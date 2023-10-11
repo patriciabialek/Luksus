@@ -65,3 +65,15 @@ Added a model class named - Perfume.cs
 Inside the class I added 7 properties and their validation but commented that out for the time being.
 *Need to figure out how to add data validation for integer values.
 Run project - no issues.
+
+2023-10-11 1257:
+Installed the NuGet package: Microsoft.EntityFrameworkCore.SqlServer(3.0.0).
+Created a Data folder and added a file named LuksusContext.cs.
+Included the following using statments at the top of the startup.cs : 
+using Luksus.Data;
+using Microsoft.EntityFrameworkCore;
+And updated the Startup.cs config service. 
+
+2023-10-11 1312:
+Connection string in appsetting.json
+Scaffold the perfume pages and a PerfumeController.cs file was created in the Controller folder
