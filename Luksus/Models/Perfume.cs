@@ -11,36 +11,36 @@ namespace Luksus.Models
     {
         public int Id { get; set; }
 
-        /*[StringLength(60, MinimumLength = 3)]
-        [Required]*/
+        [StringLength(60, MinimumLength = 3)]
+        [Required]
         public string Name { get; set; }
 
-        /*[StringLength(60, MinimumLength = 3)]
-        [Required]*/
+        [StringLength(60, MinimumLength = 3)]
+        [Required]
         public string Brand { get; set; }
 
-        /*[Required]
+        [Required]
         [Range(1, 100)]
         [DataType(DataType.Currency)]
-        [Column(TypeName = "decimal(18, 2)")]*/
+        [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
 
-        /*[StringLength(60, MinimumLength = 3)]
+        [StringLength(60, MinimumLength = 3)]
         [Display(Name = "Fragrance Family")]
-        [Required]*/
+        [Required]
         public string FragranceFamily { get; set; }
 
-        /*[StringLength(60, MinimumLength = 1)]
+        [Range(1, int.MaxValue, ErrorMessage = "Please enter a valid Integer.")]
+        [Required]
         [Display(Name = "Volume (ml)")]
-        [Required]*/
-        public string Volume { get; set; }
+        public int Volume { get; set; }
 
-        /*[StringLength(60, MinimumLength = 3)]
-        [Required]*/
+        [StringLength(60, MinimumLength = 3)]
+        [Required]
         public string Concentration { get; set; }
 
-        /*[StringLength(60, MinimumLength = 1)]
-        [Required]*/
+        [StringLength(60, MinimumLength = 1)]
+        [Required]
         public string Rating { get; set; }
     }
 }

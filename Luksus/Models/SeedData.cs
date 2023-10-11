@@ -27,7 +27,7 @@ namespace Luksus.Models
                         Brand = "Tom Ford",
                         Price = 134.99M,
                         FragranceFamily = "Oriental Floral",
-                        Volume = "50",
+                        Volume = 50,
                         Concentration = "Eau de Parfum",
                         Rating = "3"
                     },
@@ -38,7 +38,7 @@ namespace Luksus.Models
                         Brand = "Creed",
                         Price = 434.99M,
                         FragranceFamily = "Fruity Chypre",
-                        Volume = "50",
+                        Volume = 50,
                         Concentration = "Eau de Parfum",
                         Rating = "3"
                     },
@@ -49,7 +49,7 @@ namespace Luksus.Models
                         Brand = "Chanel",
                         Price = 137.99M,
                         FragranceFamily = "Floral Aldehyde",
-                        Volume = "50",
+                        Volume = 50,
                         Concentration = "Eau de Parfum",
                         Rating = "4"
                     },
@@ -60,7 +60,7 @@ namespace Luksus.Models
                         Brand = "Jo Malone London",
                         Price = 139.99M,
                         FragranceFamily = "Floral Fruity",
-                        Volume = "50",
+                        Volume = 50,
                         Concentration = "Cologne",
                         Rating = "2"
                     },
@@ -71,7 +71,7 @@ namespace Luksus.Models
                         Brand = "Dior",
                         Price = 134.99M,
                         FragranceFamily = "Floral",
-                        Volume = "50",
+                        Volume = 50,
                         Concentration = "Eau de Parfum",
                         Rating = "5"
                     },
@@ -82,7 +82,7 @@ namespace Luksus.Models
                         Brand = "Byredo",
                         Price = 189.99M,
                         FragranceFamily = "Woody Aromatic",
-                        Volume = "50",
+                        Volume = 50,
                         Concentration = "Eau de Parfum",
                         Rating = "3"
                     },
@@ -93,7 +93,7 @@ namespace Luksus.Models
                         Brand = "Acqua di Parma",
                         Price = 179.99M,
                         FragranceFamily = "Citrus Aromatic",
-                        Volume = "50",
+                        Volume = 50,
                         Concentration = "Eau de Cologne",
                         Rating = "5"
                     },
@@ -104,7 +104,7 @@ namespace Luksus.Models
                         Brand = "Guerlain",
                         Price = 119.99M,
                         FragranceFamily = "Oriental",
-                        Volume = "50",
+                        Volume = 50,
                         Concentration = "Eau de Parfum",
                         Rating = "3"
                     },
@@ -115,7 +115,7 @@ namespace Luksus.Models
                         Brand = "Amouage",
                         Price = 299.99M,
                         FragranceFamily = "Floral",
-                        Volume = "50",
+                        Volume = 50,
                         Concentration = "Eau de Parfum",
                         Rating = "2"
                     },
@@ -126,7 +126,7 @@ namespace Luksus.Models
                         Brand = "Hermes",
                         Price = 149.99M,
                         FragranceFamily = "Woody Spicy",
-                        Volume = "50",
+                        Volume = 50,
                         Concentration = "Eau de Toilette",
                         Rating = "5"
                     }

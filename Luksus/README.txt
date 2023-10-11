@@ -97,3 +97,8 @@ Run the program - seeded data did not show up.
 
 2023-10-11 1503:
 Error: InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.String'.
+
+2023-10-11 1522:
+Looked at the database and it said "volume" was type int when I had put it to string.
+Changed the validation and type to int for "volume", and chnaged the seeddata.
+run the program - no issues. 
