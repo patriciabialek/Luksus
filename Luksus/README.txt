@@ -102,3 +102,8 @@ Error: InvalidCastException: Unable to cast object of type 'System.Int32' to typ
 Looked at the database and it said "volume" was type int when I had put it to string.
 Changed the validation and type to int for "volume", and chnaged the seeddata.
 run the program - no issues. 
+
+2023-10-13 1120:
+Run the program - no issues. 
+Created a button on the home page where users can click and it leads them to the Catalog page.
+Beginning the styles for the CRUD pages.
