@@ -113,3 +113,6 @@ Finished the css for the index page.
 
 2023-10-13 1218:
 Completed the Create and Edit page.
+
+2023-10-13 1241:
+Completed the Details and Delete page.

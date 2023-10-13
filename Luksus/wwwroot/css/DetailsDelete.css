@@ -9,7 +9,7 @@ Assignment #1
 /*************************************
 TABLE OF CONTENTS:
 1. Body
-2. H1/H4
+2. H1/H4/H3
 3. Text
 4. Footer
 5. Nav
@@ -33,7 +33,7 @@ body {
 }
 
 /*************************************
-2. H1/H4
+2. H1/H4/H3
 **************************************/
 h1 {
     font-size: 3em;
@@ -51,28 +51,46 @@ h4 {
     color: #66383c;
 }
 
+h3 {
+    font-size: 1.5em;
+    font-family: 'Belleza', sans-serif;
+    color: #66383c;
+}
+
 /*************************************
 3. TEXT
 **************************************/
-form {
-    font-family: 'BIZ UDMincho', serif;
-    font-weight: bold;
-    font-size: 1.2em;
+dl {
+    font-size: 1.5em;
     color: #1a5e6e;
+    font-family: 'BIZ UDMincho', serif;
+    font-weight:bold;
 }
 
-.CL > a, .EL > a {
+dt,dd{
+    padding: 10px 0;
+}
+
+
+form,.DL{
+    margin-top: 20px;
+}
+
+.DEL > a, .DL > a {
     font-size: 1.5em;
     font-family: 'Belleza', sans-serif;
     color: #66383c;
     text-decoration: underline;
 }
 
-    .CL > a:hover, .EL > a:hover {
+    .DEL > a:hover, .DL > a:hover {
         color: pink;
         text-decoration: none;
     }
 
+.btn {
+    font-family: 'BIZ UDMincho', serif;
+}
 /*************************************
 4. FOOTER
 **************************************/
@@ -80,7 +98,7 @@ footer {
     background-color: rgb(255,206,137,0.7);
     padding: 20px;
     border-radius: 15px;
-    margin-top: 40px;
+    margin-top: 220px;
 }
 
     footer div {

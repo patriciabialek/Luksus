@@ -3,7 +3,16 @@
 @{
     ViewData["Title"] = "Details";
 }
-
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Luksus Perfume: Details</title>
+    <meta charset="utf-8">
+    <link href="~/css/myersReset.css" rel="stylesheet">
+    <link href="~/css/DetailsDelete.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho:wght@400;700&family=Belleza&family=Charmonman:wght@400;700&display=swap" rel="stylesheet">
+</head>
 <h1>Details</h1>
 
 <div>
@@ -54,7 +63,7 @@
         </dd>
     </dl>
 </div>
-<div>
+<div class="DL">
     <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
