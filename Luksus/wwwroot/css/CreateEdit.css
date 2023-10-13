@@ -9,8 +9,8 @@ Assignment #1
 /*************************************
 TABLE OF CONTENTS:
 1. Body
-2. H1/A
-3. Table
+2. H1/H4
+3. Text
 4. Footer
 5. Nav
 **************************************/
@@ -33,7 +33,7 @@ body {
 }
 
 /*************************************
-2. H1/A
+2. H1/H4
 **************************************/
 h1 {
     font-size: 3em;
@@ -45,53 +45,34 @@ h1 {
     text-shadow: 2px 2px beige;
 }
 
-p > a {
-    font-size: 1.5em;
+h4 {
+    font-size: 2em;
     font-family: 'Belleza', sans-serif;
     color: #66383c;
-    text-decoration:underline;
-    margin: 0 0 20px 0;
 }
 
-    p > a:hover {
-        color: pink;
-        text-decoration: none;
-    }
-
-p{
-    text-align:center;
-}
 /*************************************
-3. TABLE
+3. TEXT
 **************************************/
-.table{
-    margin: 20px 0;
-}
-
-tr {
-    background-color: rgb(26, 94, 110,0.7);
-}
-
-th {
+form {
     font-family: 'BIZ UDMincho', serif;
     font-weight: bold;
     font-size: 1.2em;
-    color: rgb(255,206,137);
+    color: #1a5e6e;
 }
 
-td {
+div > a {
+    font-size: 1.5em;
     font-family: 'Belleza', sans-serif;
-    font-size: 1.1em;
-    color: #fff1e6;
+    color: #66383c;
+    text-decoration: underline;
 }
 
-td > a{
+div>a:hover{
     color: pink;
+    text-decoration:none;
 }
 
-    td > a:hover {
-        color:rgb(255,206,137) ;
-    }
 /*************************************
 4. FOOTER
 **************************************/
