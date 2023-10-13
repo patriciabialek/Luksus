@@ -20,7 +20,7 @@ Commented out what was left on the home page and added my company name and a but
 Run the project - no issues.
 
 2023-10-10 1031:
-Deleted the commented out section in the hoem page.
+Deleted the commented out section in the home page.
 Changed the privacy page to the about page.
 Changed the Views > Shared > Layout page to replace privacy with about us.
 Run project - no issues.
@@ -47,7 +47,7 @@ Still need to add auto date to footer.
 Run project - no issues.
 
 2023-10-10 1252:
-Used the (@DateTime.Now.Year) to get the current year without updating.
+Used the (@DateTime.Now.Year) to get the current year without updating manually.
 Run project - no issues.
 
 2023-10-10 1353:
@@ -75,7 +75,7 @@ using Microsoft.EntityFrameworkCore;
 And updated the Startup.cs config service. 
 
 2023-10-11 1312:
-Connection string in appsetting.json
+Created a connection string in appsetting.json
 Scaffold the perfume pages and a PerfumeController.cs file was created in the Controller folder
 
 2023-10-11 1316:
@@ -86,12 +86,12 @@ A TimeStamp file was created in the Migrations folder.
 Run project - Cannont open the index of the DB.
 
 2023-10-11 1346:
-Linked the DB to the Home page by chnaging the Layout file.
+Linked the DB to the Home page by changing the Layout file.
 Run project - no issues.
 
 2023-10-11 1422:
 Created the SeedData file in the Models folder and added perfume data.
-Updated the data validation in Perfume.cs filein the Models folder.
+Updated the data validation in Perfume.cs file in the Models folder.
 Updated the program.cs file to add the seed initializer.
 Run the program - seeded data did not show up. 
 
@@ -100,7 +100,7 @@ Error: InvalidCastException: Unable to cast object of type 'System.Int32' to typ
 
 2023-10-11 1522:
 Looked at the database and it said "volume" was type int when I had put it to string.
-Changed the validation and type to int for "volume", and chnaged the seeddata.
+Changed the validation and type to int for "volume", and changed the seeddata.
 run the program - no issues. 
 
 2023-10-13 1120:
