@@ -1,0 +1,161 @@
+﻿@charset "utf-8";
+/*
+Name: Patricia Bialek
+Number: 0738386
+Assignment #1
+*/
+
+
+/*************************************
+TABLE OF CONTENTS:
+1. Body
+2. H1/A
+3. Table
+4. Footer
+5. Nav
+**************************************/
+/*************************************
+Fonts:
+font-family: 'Belleza', sans-serif; content
+font-family: 'BIZ UDMincho', serif;
+font-family: 'Charmonman', cursive; title
+**************************************/
+
+
+/*************************************
+1. BODY
+**************************************/
+body {
+    margin: 0 260px;
+    background-image: url("Images/floral.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*************************************
+2. H1/A
+**************************************/
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+    color: #1a5e6e;
+    text-shadow: 2px 2px beige;
+}
+
+p > a {
+    font-size: 1.5em;
+    font-family: 'Belleza', sans-serif;
+    color: #66383c;
+    text-decoration:underline;
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+}
+
+    p > a:hover {
+        color: pink;
+        text-decoration: none;
+    }
+
+p{
+    text-align:center;
+}
+/*************************************
+3. TABLE
+**************************************/
+.table{
+    margin: 20px 0;
+}
+
+tr {
+    background-color: rgb(26, 94, 110,0.7);
+}
+
+th {
+    font-family: 'BIZ UDMincho', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(255,206,137);
+}
+
+td {
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.1em;
+    color: #fff1e6;
+}
+
+td > a{
+    color: pink;
+}
+
+    td > a:hover {
+        color:rgb(255,206,137) ;
+    }
+/*************************************
+4. FOOTER
+**************************************/
+footer {
+    background-color: rgb(255,206,137,0.7);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+    footer div {
+        text-align: center;
+        font-family: 'Charmonman', cursive;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #66383c;
+    }
+
+        footer div a {
+            color: white;
+        }
+
+            footer div a:hover {
+                text-decoration: none;
+                color: #1a5e6e;
+            }
+/*************************************
+5. NAV
+**************************************/
+header {
+    background-color: rgb(255,206,137,0.7);
+    border-radius: 25px;
+}
+
+nav a {
+    margin: 20px 0;
+}
+
+/*Home & About link*/
+.nav-link {
+    margin-left: 50px;
+    font-size: 2em;
+    font-family: 'BIZ UDMincho', serif;
+    color: #fff1e6;
+    text-shadow: 2px 2px #1a5e6e;
+    font-weight: bold;
+}
+
+    .nav-link:hover {
+        color: #1a5e6e;
+        text-shadow: 2px 2px #fff1e6;
+    }
+
+/*Luksus link*/
+.navbar-brand {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Charmonman', cursive;
+    color: #1a5e6e;
+    text-shadow: 2px 2px #fff1e6;
+    font-weight: bold;
+}
+
+    .navbar-brand:hover {
+        color: #fff1e6;
+        text-shadow: 2px 2px #1a5e6e;
+    }

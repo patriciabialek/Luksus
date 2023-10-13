@@ -107,3 +107,6 @@ run the program - no issues.
 Run the program - no issues. 
 Created a button on the home page where users can click and it leads them to the Catalog page.
 Beginning the styles for the CRUD pages.
+
+2023-10-13 1202:
+Finished the css for the index page.
