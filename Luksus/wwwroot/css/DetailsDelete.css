@@ -71,6 +71,10 @@ dt,dd{
     padding: 10px 0;
 }
 
+dd {
+    color: rgb(240,190,120);
+}
+
 
 form,.DL{
     margin-top: 20px;
