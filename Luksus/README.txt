@@ -112,10 +112,10 @@ Beginning the styles for the CRUD pages.
 Finished the css for the index page.
 
 2023-10-13 1218:
-Completed the Create and Edit page.
+Completed the css for the Create and Edit page.
 
 2023-10-13 1241:
-Completed the Details and Delete page.
+Completed the css for the Details and Delete page.
 
 2023-10-13 1250:
 Run the program - no issues.
