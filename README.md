@@ -1,5 +1,5 @@
 <h1>LUKSUS</h1>
-<p>Assignment 1 (25%) Review the 'PRODUCT' (perfume) assigned and investigate this real world object for specific properties, structure and various attributes. Then produce a fictional company name to promote the product.
+<p>Review the 'PRODUCT' (perfume) assigned and investigate this real world object for specific properties, structure and various attributes. Then produce a fictional company name to promote the product.
 Document the attributes of the assigned object and review the architecture of a robust MVC web application to generate a product catalogue allowing for CRUD operations.</p>
 <ol>
 <li> Create an ASP.NET Core 3.1 application with the assigned product using Visual Studio 2019:
